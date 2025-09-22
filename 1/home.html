@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/1/assets/css/home-style.css" />
+    <script src="/1/assets/src/home-script.js"></script>
+  </head>
+  <body>
+    <h2>Bem-vindo, <span id="userName"></span></h2>
+
+    <form id="updateForm">
+      <label>Nome: <input type="text" id="name" required /></label><br />
+      <label>Email: <input type="email" id="email" required /></label><br />
+      <label>Senha: <input type="password" id="password" required /></label
+      ><br />
+      <label>CPF: <input type="text" id="cpf" required /></label><br />
+      <label>Telefone: <input type="tel" id="telephone" /></label><br />
+      <label>Endereço: <input type="text" id="address" /></label><br />
+      <button type="submit">Atualizar</button>
+    </form>
+
+    <button id="logout">Sair</button>
+  </body>
+</html>

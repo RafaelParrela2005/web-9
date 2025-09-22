@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro de Fornecedores e Produtos</title>
+  <link rel="stylesheet" href="/2/assets/css/style.css" />
+  <script src="/2/assets/src/script.js"></script>
+</head>
+<body>
+  <header></header>
+  <main>
+    <fieldset>
+      <legend class="leg-for">Cadastro de Fornecedores</legend>
+      <form id="form-fornecedor">
+        <input type="text" id="supplier-cnpj" placeholder="CNPJ" />
+        <input type="text" id="supplier-name" placeholder="Nome" />
+        <input type="tel" id="supplier-telephone" placeholder="Telefone" />
+        <input type="text" id="supplier-address" placeholder="Endereço" />
+        <button type="submit">Cadastrar Fornecedor</button>
+      </form>
+    </fieldset>
+
+    <fieldset>
+      <legend class="leg-prod">Cadastro de Produtos</legend>
+      <form id="form-produto">
+        <input type="text" id="product-id" placeholder="Id">
+        <input type="text" id="product-name" placeholder="Nome">
+        <input type="text" id="product-quantity" placeholder="Quantidade">
+        <input type="text" id="product-price" placeholder="Preço">
+        <input type="text" id="product-cnpj" placeholder="CNPJ">
+        <button type="submit">Cadastrar Produto</button>
+      </form>
+    </fieldset>
+
+    <fieldset>
+      <legend class="leg-list">Listagens</legend>
+
+      <div>
+        <input type="text" id="search-product-id" placeholder="ID do Produto">
+        <button id="btn-list-supplier">Listar Fornecedor do Produto</button>
+        <ul id="supplier-list"></ul>
+      </div>
+
+      <div>
+        <input type="text" id="search-supplier-cnpj" placeholder="CNPJ do Fornecedor">
+        <button id="btn-list-products">Listar Produtos do Fornecedor</button>
+        <ul id="product-list"></ul>
+      </div>
+    </fieldset>
+  </main>
+</body>
+</html>

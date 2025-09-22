@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #1f2937;
+  font-family: "Space Grotesk", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+fieldset {
+  background-color: #f3f4f6;
+  color: #1f2937;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 450px;
+  margin: 50px auto;
+  border: none;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #7c3aed;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 9999px;
+  background-color: #10b981;
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #10b9818a;
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+  color: #3b82f6;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #2563eb;
+}
