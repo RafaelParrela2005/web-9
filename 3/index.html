@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/48646e5481.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tarefas</h1>
+        <input type="text" id="entradaTarefa" placeholder="Adicionar nova tarefa...">
+        <div class="filtros">
+            <button onclick="filtrarTarefas('todas')">Todas</button>
+            <button onclick="filtrarTarefas('pendentes')">Pendentes</button>
+            <button onclick="filtrarTarefas('concluidas')">Concluídas</button>
+        </div>
+        <ul id="listaTarefas"></ul>
+        <div class="contador">
+            <span id="contadorPendentes">0 tarefas pendentes</span>
+            <button onclick="limparConcluidas()">Limpar Concluídas</button>
+        </div>
+    </div>
+    <script src="funcionalidade.js"></script>
+</body>
+</html>
